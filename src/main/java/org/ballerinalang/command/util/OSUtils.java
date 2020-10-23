@@ -98,6 +98,10 @@ public class OSUtils {
                 + BALLERINA_HOME_DIR + File.separator + BALLERINA_CONFIG;
     }
 
+    /**
+     * Provide path to the file of locally available distributions.
+     * @return path of the file
+     */
     public static String getBallerinaDistListFilePath() throws IOException {
         String userHome = getUserHome();
         File file = new File(userHome + File.separator
